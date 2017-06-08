@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 5FE7EDD4 1496938713 +0000\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_motorola_addison\nnonce 1496938715-0E339600E660D3FBB43AC5887CB8A51A5E998F9A\n\n0000000000000000000000000000000000000000 a91cba4183a9dc5d1ef8ce126faba7599f625db0 refs/for/cr-5.1\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1\n\niJwEAAECAAYFAlk5eNkACgkQBwRB5l/n7dQLsAP+IvO3sGwck99OQ4/Iv2yOiG8r\ncqpPDBdL79cwrGusRQJcegIggUCfd/rJfADyhVhEoONWt/nnxgZadmSASwNwNY7u\nnecRa2upekCKE1tijv11qtfcHcRM7YhwzLQdoqa6IaEVIc4hALulH/NH79hIhcmB\nyzDmUqgea+8BTIBXYBg\u003d\n\u003ddeuS\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
