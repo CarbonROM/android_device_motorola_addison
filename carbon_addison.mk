@@ -16,13 +16,19 @@
 
 $(call inherit-product, device/motorola/addison/full_addison.mk)
 
+# Inherit some common carbon stuff.
+$(call inherit-product, vendor/carbon/config/common.mk)
+
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := addison
-PRODUCT_NAME := lineage_addison
+PRODUCT_NAME := carbon_addison
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
@@ -32,3 +38,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=motorola/addison/addison:7.0/NPN25.137-24-1/1:user/release-keys \
     PRIVATE_BUILD_DESC="addison-user 7.0 NPN25.137-24-1 1 release-keys" \
     PRODUCT_NAME="Moto Z Play"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.carbon.maintainer="gtpitch"
