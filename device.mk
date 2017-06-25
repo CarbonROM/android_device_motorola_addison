@@ -144,9 +144,8 @@ PRODUCT_PACKAGES += \
     fs_config_files
 
 # GPS
-PRODUCT_PACKAGES += \
-    libgnsspps \
-    gps.msm8953
+#PRODUCT_PACKAGES += \
+#    gps.msm8916
 
 # IMS
 PRODUCT_PACKAGES += \
