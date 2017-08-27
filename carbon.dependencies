@@ -3,7 +3,7 @@
     "remote"    :  "carbon",
     "repository":  "CarbonROM/android_kernel_motorola_msm8953",
     "target_path": "kernel/motorola/msm8953",
-    "revision"  : "cr-5.1"
+    "revision"  : "cr-6.0"
   },
   {
     "remote"    : "lineage",
@@ -15,13 +15,13 @@
     "remote"    : "lineage",
     "repository": "LineageOS/android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision"  : "cm-14.1"
+    "revision"  : "lineage-15.0"
   },
   {
     "remote"    : "lineage",
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "revision"  : "cm-14.1"
+    "revision"  : "lineage-15.0"
   }
 ]
 
